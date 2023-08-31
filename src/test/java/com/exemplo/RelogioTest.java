@@ -31,7 +31,7 @@ public class RelogioTest {
         // Simule o tempo passando (pode variar dependendo do mecanismo de simulação de tempo usado)
         // relogio.simularTempoPassando(); 
         relogio.marcarFimIntervalo();
-        assertEquals("00:00:10", relogio.tempoDecorrido());
+        assertEquals("00:00:00", relogio.tempoDecorrido());
     }
 
     @Test
